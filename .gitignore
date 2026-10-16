@@ -1,0 +1,12 @@
+# Provider binaries (downloaded by terraform init)
+.terraform/
+
+# State: contains every secret in plaintext
+*.tfstate
+*.tfstate.*
+
+# Real variable values (passwords)
+*.tfvars
+!example.tfvars
+
+crash.log
