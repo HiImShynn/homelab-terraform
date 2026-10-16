@@ -9,4 +9,7 @@
 *.tfvars
 !example.tfvars
 
+# DEV_README.md file
+DEV_README.md
+
 crash.log
